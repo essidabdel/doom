@@ -1,0 +1,110 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.item .quantity {
+  margin-right: 10px;
+}
+.item .heart {
+  cursor: pointer;
+}
+
+/* Styles pour la page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url("pexels-karolina-grabowska-5632381.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.item img {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.item span,
+.item div {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.item .increment,
+.item .decrement,
+.item .delete,
+.item .heart {
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.item .heart {
+  font-size: 24px;
+  line-height: 1;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+#totalPrice {
+  text-align: right;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.button {
+  background-color: #ccc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #999;
+}
+#totalPrice {
+  font-size: 36px;
+  font-weight: bold;
+}
+#myButton {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
+#myButton.clicked {
+  background-color: blue;
+}
